@@ -1,15 +1,50 @@
 body{
-  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+  background: url(images/ocean.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
 }
 nav{
-  background-color: lightgreen;
+  background-color:;
+  opacity:;
+  float: left;
+  width: 100%;
 
+}
+ul {
+  width: inherit;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+}
+nav li {
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  width: 20%;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 .logo{
-  background-color: purple;
-
+  margin: auto;
+  padding-top: 900px;
+  text-align: center;
+  clear: both;
 }
-footer{
-background-color: yellow;
+h2 span {
 
+  height: 700px;
+  position: absolute;
+
+
+  transform-origin: bottom center;
 }
+.char1 { transform: rotate(6deg); }
+.char2 { transform: rotate(12deg); }
+.char3 { transform: rotate(18deg); }
+.char3 { transform: rotate(24deg); }
